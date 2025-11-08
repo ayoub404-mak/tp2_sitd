@@ -1,4 +1,4 @@
-public class mainLivre {
+ /*public class mainLivre {
     public static void main(String[] args) {
         Liver [] l1 = new Liver[3];
         l1[0]=new Liver("java suck", "me",10);
@@ -14,5 +14,7 @@ public class mainLivre {
             l1[i].afficher();
         }
     }
+   
     
 }
+ */

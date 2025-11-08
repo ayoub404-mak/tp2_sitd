@@ -1,7 +1,6 @@
-
+/*
 public class Bancaire {
      //3lax mni kandiklaret mes variable hna publice mn9drx n9rahom f file bancaire
-     public static double montant_dep;
     public static void main(String[] args) {
         CompteBancaire c1= new CompteBancaire();
         c1.set_solde(1000);
@@ -12,4 +11,7 @@ public class Bancaire {
         System.out.println("final solde : "+c1.get_solde());
    
     }
+
+    
 }
+ */

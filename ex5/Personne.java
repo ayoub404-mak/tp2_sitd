@@ -37,7 +37,7 @@ public class Personne {
         &&      autre.get_prenom().equals(get_prenom()) 
         &&      autre.get_age()==get_age());  
     }
-    
+    @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;

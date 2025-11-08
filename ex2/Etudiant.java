@@ -1,4 +1,3 @@
-import javax.print.DocFlavor.STRING;
 
 public class Etudiant {
     private String nom;
@@ -34,4 +33,15 @@ public class Etudiant {
         System.out.println("nom: "+nom+"| note : "+note);
     }
 
+}
+ class mainEtudiant {
+    public static void main(String[] args) {
+        
+       Etudiant  e1 = new Etudiant("ali", 13);
+       e1.afficher();
+       e1.set_nom("");
+       e1.set_note(23);
+       e1.afficher();
+
+    }
 }

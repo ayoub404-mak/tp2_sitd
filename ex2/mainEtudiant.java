@@ -1,4 +1,4 @@
-public class mainEtudiant {
+/*public class mainEtudiant {
     public static void main(String[] args) {
         
        Etudiant  e1 = new Etudiant("ali", 13);
@@ -9,3 +9,4 @@ public class mainEtudiant {
 
     }
 }
+ */
