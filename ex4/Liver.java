@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Liver{
-     private String titre;
+    private String titre;
     private String auteur;
     private double prix;
 
@@ -11,9 +11,6 @@ public class Liver{
         set_prix(prix);
     }
 
-    public void afficher(){
-        
-    }
     public void set_titre(String titre){
         this.titre=titre;
     }
@@ -32,9 +29,6 @@ public class Liver{
     }
     public double get_prix(){
         return prix;
-    }
-//---------------------------------------IMPOSIBLE 
-
-    
+    }  
     
 }

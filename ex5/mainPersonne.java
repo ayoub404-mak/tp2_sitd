@@ -1,4 +1,4 @@
-package ex5;
+  /* package ex5;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,9 +36,9 @@ public class mainPersonne {
 
         
 
-    }
+   /* }
 
-  /*  the best what my brean comme with it -----hands up
+    the best what my brean comme with it -----hands up
   
   static boolean equals(ArrayList<Personne> autre2,ArrayList<Personne> autre1){
         boolean result=true;
@@ -48,10 +48,9 @@ public class mainPersonne {
         }
         
         return result;
-    }
-*/
-     
+    } */
+
+  
 
    
-}
- 
+

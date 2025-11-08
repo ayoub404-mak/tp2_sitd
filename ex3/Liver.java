@@ -10,7 +10,7 @@ public class Liver{
     }
 
     public void afficher(){
-        System.out.println("Liver : "+titre+" | Autour : "+auteur+" | prix : "+prix);
+        System.out.println("Liver : "+get_titre()+" | Autour : "+get_auteur()+" | prix : "+get_prix());
     }
     public void set_titre(String titre){
         this.titre=titre;
@@ -31,13 +31,16 @@ public class Liver{
     public double get_prix(){
         return prix;
     }
-}
- class mainLivre {
+
+
+ //3LAX MAKATBRIX TRDAM ILA DRT MAIN F CLASS RERA O 9BILA AH
+
+
     public static void main(String[] args) {
         Liver [] l1 = new Liver[3];
-        l1[0]=new Liver("java suck", "me",10);
-        l1[1]=new Liver("javaScript on servir", "you", 1000);
-        l1[2]=new Liver("Rust is the best", "him", 1073);
+        l1[0]=new Liver("my strugel", "hitler",10);
+        l1[1]=new Liver("there will be blood", "master", 1000);
+        l1[2]=new Liver("1984", "orwell", 1073);
 
         // is ir possible to do the for(int num : numbers)
         
@@ -48,5 +51,7 @@ public class Liver{
             l1[i].afficher();
         }
     }
+   
     
 }
+
