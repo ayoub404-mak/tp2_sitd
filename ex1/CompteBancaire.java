@@ -1,5 +1,5 @@
 
-public class CompteBancaire{
+/*public class CompteBancaire{
     private String numeroCompte;
     private double solde;
 
@@ -67,3 +67,63 @@ public class CompteBancaire{
 }
 
      
+*/
+
+public class CompteBancaire {
+
+    private String numeroCompte;
+    private double solde;
+
+    CompteBancaire(){
+
+    }
+    CompteBancaire(String numeroCompte,double solde){
+        this.numeroCompte=numeroCompte;
+        this.solde=solde;
+    }
+    public void deposer(double montant){
+        if(montant >0)
+        {solde+=montant;System.out.println("depo de "+montant+"effectue");}
+
+        else 
+            errur();
+        
+    }
+    public void retirer (double montant){
+        if(montant>0)
+        {solde-=montant;System.out.println("retrais de "+montant+"effectue");}
+        else 
+            errur();
+    }
+    public void errur(){
+        System.out.println("montont invalide");
+    }
+    public void affich(){
+        System.out.println("compt: "+numeroCompte+"|solde : "+solde);
+    }
+    public void  set_solde(double solde){
+        this.solde=solde;
+    }
+    public void set_compt(String numeroCompte){
+        this.numeroCompte=numeroCompte;
+    }
+    public double get_solde(){
+        return solde;
+    }
+
+}
+ 
+class test {
+    public static void main(String[] args) {
+        CompteBancaire c1= new CompteBancaire();
+        c1.set_solde(1000);
+        c1.set_compt("abc123");
+        c1.affich();
+        c1.deposer(5000);
+        c1.retirer(3000);
+        System.out.println("final solde : "+c1.get_solde());
+   
+    }
+
+    
+}
